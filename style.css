@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0px;
+	margin:0px;
+}
+
+.main-title {
+	margin:0px;
+	padding:0px;
+	min-width:100%;
+	background-image: url("head-3.jpg");
+	height: 300px;
+}
+
+#header-text {
+	height: 100px;
+	padding-top: 35px;
+	color: white;
+	background-color: black;
+	opacity: 70%;
+	font-family: "Garamond";
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 75px;
+}
+
+#main-nav li {
+	display: inline-block;
+	font-size: 20px;
+    color: white;
+	margin: 40px;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+#main-nav li a:hover {
+    color:red;
+}
+
+#main-nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+#main-nav {
+	position: sticky;
+	opacity: 90%;
+	top: 0px;
+	text-align: center;
+	background-color:#30370C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.body-section p {
+	width: 80%;
+	margin-left:10%;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+.body-section {
+	clear: left;
+}
+
+.body-section h1 {
+	text-align: center;
+	font-variant: small-caps;
+	margin-bottom: 10px;
+	border-top: 3px #540001 solid;
+	border-bottom: 3px #540001 solid;
+	background-color:wheat;
+}
+
+#habitat-section {
+	background-color: lightgreen;
+}
+
+#funny-lemur {
+	width: 200px;
+	height: auto;
+	float: left;
+}
+
+footer {
+	border: 2px red solid;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+button {
+	display: inline-block;
+	background-color: forestgreen;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: "Garamond";
+	font-size: 20px;
+	margin: 10px;
+	border: none;
+}
+
+button:hover {
+	background-color: #196719;
+}
